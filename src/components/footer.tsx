@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, Twitter } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 import { Link } from "@tanstack/react-router";
 
 export function Footer() {
@@ -7,10 +7,10 @@ export function Footer() {
       <div className="mx-auto max-w-6xl px-5 py-12 grid gap-8 md:grid-cols-3">
         <div>
           <p className="font-display text-xl font-bold">
-            <span className="text-gradient">dev</span>.portfolio
+            <span className="text-gradient">Niveditha</span>.dev
           </p>
           <p className="mt-2 text-sm text-muted-foreground max-w-xs">
-            Full Stack Developer crafting fast, accessible, beautifully engineered web experiences.
+            Full Stack Web Developer crafting responsive, user-friendly, and scalable web applications.
           </p>
         </div>
         <div>
@@ -26,10 +26,9 @@ export function Footer() {
           <p className="text-sm font-semibold mb-3">Connect</p>
           <div className="flex gap-3">
             {[
-              { Icon: Github, href: "https://github.com", label: "GitHub" },
-              { Icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-              { Icon: Twitter, href: "https://twitter.com", label: "Twitter" },
-              { Icon: Mail, href: "mailto:hello@example.com", label: "Email" },
+              { Icon: Github, href: "https://github.com/niveditha6107", label: "GitHub" },
+              { Icon: Linkedin, href: "https://www.linkedin.com/in/niveditha-arige-77a059328/", label: "LinkedIn" },
+              { Icon: Mail, href: "mailto:niveditha6107@gmail.com", label: "Email" },
             ].map(({ Icon, href, label }) => (
               <a
                 key={label}
@@ -47,7 +46,7 @@ export function Footer() {
       </div>
       <div className="border-t border-border/60">
         <div className="mx-auto max-w-6xl px-5 py-5 text-xs text-muted-foreground flex flex-wrap justify-between gap-2">
-          <p>© {new Date().getFullYear()} Dev Portfolio. Crafted with care.</p>
+          <p>© {new Date().getFullYear()} Niveditha Arige. Crafted with care.</p>
           <p>Built with React, TanStack & Tailwind.</p>
         </div>
       </div>

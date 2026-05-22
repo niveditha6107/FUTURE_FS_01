@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { motion } from "framer-motion";
-import { ArrowRight, Download, Github, Linkedin, Mail, Twitter, Sparkles } from "lucide-react";
+import { ArrowRight, Download, Github, Linkedin, Mail, Sparkles } from "lucide-react";
 import { Blobs } from "./blobs";
 import avatar from "@/assets/avatar.jpg";
 
@@ -26,7 +26,7 @@ export function Hero() {
             transition={{ duration: 0.7, delay: 0.05 }}
             className="mt-6 font-display text-5xl sm:text-6xl lg:text-7xl font-bold leading-[1.02] tracking-tight"
           >
-            Hi, I'm <span className="text-gradient">Alex Carter</span>.<br />
+            Hi, I'm <span className="text-gradient">Niveditha Arige</span>.<br />
             I build modern <span className="text-gradient">web experiences</span>.
           </motion.h1>
 
@@ -36,8 +36,8 @@ export function Hero() {
             transition={{ duration: 0.7, delay: 0.15 }}
             className="mt-6 text-lg text-muted-foreground max-w-xl"
           >
-            Full Stack Web Developer focused on building fast, accessible, and beautifully
-            engineered products with React, Node.js, and MongoDB.
+            Full Stack Web Developer passionate about creating responsive, user-friendly,
+            and scalable web applications using React, Node.js, MongoDB, and modern frontend technologies.
           </motion.p>
 
           <motion.div
@@ -76,10 +76,9 @@ export function Hero() {
             className="mt-10 flex items-center gap-3"
           >
             {[
-              { Icon: Github, href: "https://github.com", label: "GitHub" },
-              { Icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-              { Icon: Twitter, href: "https://twitter.com", label: "Twitter" },
-              { Icon: Mail, href: "mailto:hello@example.com", label: "Email" },
+              { Icon: Github, href: "https://github.com/niveditha6107", label: "GitHub" },
+              { Icon: Linkedin, href: "https://www.linkedin.com/in/niveditha-arige-77a059328/", label: "LinkedIn" },
+              { Icon: Mail, href: "mailto:niveditha6107@gmail.com", label: "Email" },
             ].map(({ Icon, href, label }) => (
               <a
                 key={label}
@@ -105,7 +104,7 @@ export function Hero() {
           <div className="relative glass rounded-[2rem] p-3 shadow-elegant animate-float">
             <img
               src={avatar}
-              alt="Portrait of Alex Carter, Full Stack Web Developer"
+              alt="Portrait of Niveditha Arige, Full Stack Web Developer"
               width={420}
               height={420}
               className="rounded-[1.5rem] w-[280px] sm:w-[360px] lg:w-[420px] aspect-square object-cover"
