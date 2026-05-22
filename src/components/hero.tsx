@@ -2,13 +2,12 @@ import { Link } from "@tanstack/react-router";
 import { motion } from "framer-motion";
 import { ArrowRight, Download, Github, Linkedin, Mail, Sparkles } from "lucide-react";
 import { Blobs } from "./blobs";
-import avatar from "@/assets/avatar.jpg";
 
 export function Hero() {
   return (
     <section className="relative min-h-[100svh] flex items-center pt-24 pb-16 overflow-hidden">
       <Blobs />
-      <div className="mx-auto max-w-6xl px-5 grid lg:grid-cols-[1.2fr_1fr] gap-12 items-center w-full">
+      <div className="mx-auto max-w-4xl px-5 w-full">
         <div>
           <motion.span
             initial={{ opacity: 0, y: 10 }}
@@ -94,31 +93,6 @@ export function Hero() {
           </motion.div>
         </div>
 
-        <motion.div
-          initial={{ opacity: 0, scale: 0.95 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.9, delay: 0.2 }}
-          className="relative mx-auto"
-        >
-          <div className="absolute -inset-6 bg-gradient-hero rounded-[2.5rem] opacity-40 blur-2xl animate-float" />
-          <div className="relative glass rounded-[2rem] p-3 shadow-elegant animate-float">
-            <img
-              src={avatar}
-              alt="Portrait of Niveditha Arige, Full Stack Web Developer"
-              width={420}
-              height={420}
-              className="rounded-[1.5rem] w-[280px] sm:w-[360px] lg:w-[420px] aspect-square object-cover"
-            />
-            <div className="absolute -bottom-4 -left-4 glass rounded-2xl px-4 py-3 shadow-elegant">
-              <p className="text-[10px] font-mono uppercase tracking-wider text-muted-foreground">Currently</p>
-              <p className="text-sm font-semibold">Building with React + Node</p>
-            </div>
-            <div className="absolute -top-4 -right-4 glass rounded-2xl px-4 py-3 shadow-elegant">
-              <p className="text-[10px] font-mono uppercase tracking-wider text-muted-foreground">Years coding</p>
-              <p className="text-sm font-semibold">3+ years</p>
-            </div>
-          </div>
-        </motion.div>
       </div>
     </section>
   );
