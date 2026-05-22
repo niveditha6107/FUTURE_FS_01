@@ -7,13 +7,13 @@ import { Contact } from "@/components/contact";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Alex Carter — Full Stack Web Developer" },
+      { title: "Niveditha Arige — Full Stack Web Developer" },
       {
         name: "description",
         content:
-          "Portfolio of Alex Carter — full stack developer building modern, fast, accessible web apps with React, Node.js, and MongoDB.",
+          "Portfolio of Niveditha Arige — full stack developer building modern, fast, accessible web apps with React, Node.js, and MongoDB.",
       },
-      { property: "og:title", content: "Alex Carter — Full Stack Web Developer" },
+      { property: "og:title", content: "Niveditha Arige — Full Stack Web Developer" },
       {
         property: "og:description",
         content: "Modern, fast, accessible web experiences built with React, Node.js, and MongoDB.",
