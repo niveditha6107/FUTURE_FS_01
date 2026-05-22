@@ -65,18 +65,23 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Alex Carter — Full Stack Web Developer" },
+      { title: "Niveditha Arige | Full Stack Web Developer" },
       {
         name: "description",
         content:
-          "Portfolio of Alex Carter, a Full Stack Web Developer specializing in React, Node.js, and MongoDB. Projects, resume, and contact.",
+          "Portfolio of Niveditha Arige showcasing full stack web development projects, React applications, backend systems, and internship work.",
       },
-      { name: "author", content: "Alex Carter" },
+      {
+        name: "keywords",
+        content:
+          "Full Stack Developer, React Developer, Node.js, MongoDB, Portfolio, Web Developer, Future Interns, Niveditha Arige",
+      },
+      { name: "author", content: "Niveditha Arige" },
       { name: "theme-color", content: "#7c3aed" },
-      { property: "og:title", content: "Alex Carter — Full Stack Web Developer" },
+      { property: "og:title", content: "Niveditha Arige | Full Stack Web Developer" },
       {
         property: "og:description",
-        content: "Modern, fast, accessible web experiences built with React, Node.js, and MongoDB.",
+        content: "Modern, responsive web experiences built with React, Node.js, and MongoDB.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -97,10 +102,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Person",
-          name: "Alex Carter",
+          name: "Niveditha Arige",
           jobTitle: "Full Stack Web Developer",
+          email: "mailto:niveditha6107@gmail.com",
           url: "/",
-          sameAs: ["https://github.com", "https://linkedin.com"],
+          sameAs: [
+            "https://github.com/niveditha6107",
+            "https://www.linkedin.com/in/niveditha-arige-77a059328/",
+          ],
         }),
       },
     ],

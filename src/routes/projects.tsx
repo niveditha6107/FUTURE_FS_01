@@ -4,9 +4,9 @@ import { Projects } from "@/components/projects";
 export const Route = createFileRoute("/projects")({
   head: () => ({
     meta: [
-      { title: "Projects — Alex Carter" },
+      { title: "Projects — Niveditha Arige" },
       { name: "description", content: "Selected full-stack, frontend, and internship projects." },
-      { property: "og:title", content: "Projects — Alex Carter" },
+      { property: "og:title", content: "Projects — Niveditha Arige" },
       { property: "og:description", content: "Selected full-stack and frontend projects." },
       { property: "og:url", content: "/projects" },
     ],

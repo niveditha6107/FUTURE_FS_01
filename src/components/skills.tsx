@@ -5,37 +5,37 @@ const skillGroups = [
   {
     title: "Frontend",
     skills: [
-      { name: "React", level: 92 },
-      { name: "TypeScript", level: 85 },
-      { name: "Tailwind CSS", level: 95 },
-      { name: "HTML & CSS", level: 96 },
-      { name: "JavaScript", level: 92 },
+      { name: "HTML5", level: 95 },
+      { name: "CSS3", level: 92 },
+      { name: "JavaScript", level: 88 },
+      { name: "React.js", level: 85 },
+      { name: "Tailwind CSS", level: 90 },
     ],
   },
   {
     title: "Backend",
     skills: [
-      { name: "Node.js", level: 86 },
-      { name: "Express.js", level: 84 },
-      { name: "REST APIs", level: 88 },
-      { name: "Authentication", level: 78 },
+      { name: "Node.js", level: 80 },
+      { name: "Express.js", level: 78 },
+      { name: "REST APIs", level: 82 },
     ],
   },
   {
     title: "Database",
     skills: [
-      { name: "MongoDB", level: 82 },
-      { name: "MySQL", level: 74 },
-      { name: "PostgreSQL", level: 70 },
+      { name: "MongoDB", level: 78 },
+      { name: "MySQL", level: 75 },
     ],
   },
   {
     title: "Tools & Other",
     skills: [
-      { name: "Git & GitHub", level: 90 },
+      { name: "Git & GitHub", level: 88 },
       { name: "VS Code", level: 95 },
-      { name: "Postman", level: 85 },
-      { name: "Responsive Design", level: 94 },
+      { name: "Postman", level: 82 },
+      { name: "Responsive Design", level: 92 },
+      { name: "Problem Solving", level: 85 },
+      { name: "API Integration", level: 80 },
     ],
   },
 ];

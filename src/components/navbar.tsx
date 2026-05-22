@@ -35,7 +35,7 @@ export function Navbar() {
     >
       <nav className="mx-auto max-w-6xl px-5 h-16 flex items-center justify-between">
         <Link to="/" className="font-display text-lg font-bold tracking-tight">
-          <span className="text-gradient">dev</span>.portfolio
+          <span className="text-gradient">Niveditha</span>.dev
         </Link>
 
         <div className="hidden md:flex items-center gap-1">

@@ -15,7 +15,7 @@ const projects = [
     image: portfolioImg,
     tech: ["React", "Tailwind", "Framer Motion"],
     demo: "#",
-    repo: "https://github.com",
+    repo: "https://github.com/niveditha6107",
   },
   {
     title: "Task Management App",
@@ -23,7 +23,7 @@ const projects = [
     image: tasksImg,
     tech: ["React", "Node.js", "MongoDB"],
     demo: "#",
-    repo: "https://github.com",
+    repo: "https://github.com/niveditha6107",
   },
   {
     title: "Weather App",
@@ -31,7 +31,7 @@ const projects = [
     image: weatherImg,
     tech: ["React", "REST APIs", "Tailwind"],
     demo: "#",
-    repo: "https://github.com",
+    repo: "https://github.com/niveditha6107",
   },
   {
     title: "E-commerce Website",
@@ -39,7 +39,7 @@ const projects = [
     image: ecomImg,
     tech: ["React", "Node.js", "Express", "MongoDB"],
     demo: "#",
-    repo: "https://github.com",
+    repo: "https://github.com/niveditha6107",
   },
   {
     title: "Future Interns Tasks",
@@ -47,7 +47,7 @@ const projects = [
     image: internsImg,
     tech: ["React", "Node.js", "Tailwind"],
     demo: "#",
-    repo: "https://github.com",
+    repo: "https://github.com/niveditha6107",
   },
 ];
 

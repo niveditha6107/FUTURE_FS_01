@@ -6,10 +6,10 @@ import { motion } from "framer-motion";
 export const Route = createFileRoute("/resume")({
   head: () => ({
     meta: [
-      { title: "Resume — Alex Carter" },
-      { name: "description", content: "Resume: education, certifications, experience, and skills." },
-      { property: "og:title", content: "Resume — Alex Carter" },
-      { property: "og:description", content: "Education, certifications, experience, and skills." },
+      { title: "Resume — Niveditha Arige" },
+      { name: "description", content: "Resume of Niveditha Arige — education, certifications, internship experience, and skills." },
+      { property: "og:title", content: "Resume — Niveditha Arige" },
+      { property: "og:description", content: "Education, certifications, internship experience, and skills." },
       { property: "og:url", content: "/resume" },
     ],
     links: [{ rel: "canonical", href: "/resume" }],
@@ -22,25 +22,25 @@ const blocks = [
     Icon: BookOpen,
     title: "Education",
     items: [
-      { h: "B.Tech, Computer Science", s: "University · 2022 — 2026", t: "Coursework: DSA, Web Dev, DBMS, OS, SE." },
-      { h: "Higher Secondary", s: "Science Stream · 2020 — 2022", t: "Top of class in CS & Mathematics." },
+      { h: "B.Tech, Computer Science", s: "Undergraduate · Current", t: "Coursework: DSA, Web Development, DBMS, OS, Software Engineering." },
+      { h: "Higher Secondary", s: "Science Stream", t: "Strong foundation in Mathematics and Computer Science." },
     ],
   },
   {
     Icon: Award,
     title: "Certifications",
     items: [
-      { h: "Meta Front-End Developer", s: "Coursera · 2024", t: "React, responsive design, accessibility." },
-      { h: "MongoDB Developer Path", s: "MongoDB University · 2024", t: "Modeling, aggregation, performance." },
-      { h: "Full Stack JavaScript", s: "freeCodeCamp · 2023", t: "Node.js, Express, MongoDB, REST." },
+      { h: "Full Stack Web Development", s: "Self-paced learning", t: "React, Node.js, Express, MongoDB, REST APIs." },
+      { h: "Frontend Development", s: "Online coursework", t: "HTML5, CSS3, JavaScript, React, responsive design." },
+      { h: "Future Interns Program", s: "Internship track", t: "Hands-on full stack tasks and project assignments." },
     ],
   },
   {
     Icon: Briefcase,
     title: "Experience",
     items: [
-      { h: "Full Stack Developer Intern", s: "Future Interns · 2024 — Present", t: "Shipping production features across the stack." },
-      { h: "Freelance Web Developer", s: "Independent · 2023 — 2024", t: "Sites & tools for small businesses." },
+      { h: "Full Stack Developer Intern", s: "Future Interns · 2024 — Present", t: "Building responsive React UIs, Node.js APIs, and MongoDB-backed features." },
+      { h: "Personal Projects", s: "Ongoing", t: "Portfolio, Task Manager, Weather App, E-commerce — shipping real-world apps." },
     ],
   },
 ];
@@ -93,9 +93,9 @@ function ResumePage() {
           <h3 className="font-bold text-lg mb-4">Skills Summary</h3>
           <div className="flex flex-wrap gap-2">
             {[
-              "React", "TypeScript", "Next.js", "Tailwind CSS", "Framer Motion",
+              "HTML5", "CSS3", "JavaScript", "React.js", "Tailwind CSS",
               "Node.js", "Express.js", "REST APIs", "MongoDB", "MySQL",
-              "Git & GitHub", "Postman", "VS Code", "Responsive Design", "Accessibility",
+              "Git & GitHub", "Postman", "VS Code", "Responsive Design", "API Integration", "Problem Solving",
             ].map((s) => (
               <span
                 key={s}

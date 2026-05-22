@@ -8,21 +8,21 @@ const timeline = [
     period: "2024 — Present",
     title: "Full Stack Developer Intern",
     org: "Future Interns",
-    text: "Building production-ready features across the stack — React, Node.js, MongoDB. Shipping reusable components and improving DX.",
+    text: "Building real-world web projects across the stack — React, Node.js, Express, and MongoDB. Strengthening fundamentals through hands-on internship tasks.",
   },
   {
     Icon: Rocket,
-    period: "2023 — 2024",
-    title: "Freelance Web Developer",
-    org: "Independent",
-    text: "Designed and built websites and small SaaS tools for clients. Focus on performance and accessibility.",
+    period: "Ongoing",
+    title: "Self-Driven Projects",
+    org: "Personal",
+    text: "Designing and shipping responsive web apps to deepen full stack skills — focusing on clean UI, REST APIs, and scalable architecture.",
   },
   {
     Icon: GraduationCap,
-    period: "2022 — 2026",
+    period: "Current",
     title: "B.Tech, Computer Science",
-    org: "University",
-    text: "Coursework in data structures, web technologies, databases, and software engineering.",
+    org: "Undergraduate Student",
+    text: "Studying data structures, web technologies, databases, and software engineering — preparing to grow into a skilled software engineer.",
   },
 ];
 
@@ -33,8 +33,8 @@ export function About({ heading = true }: { heading?: boolean }) {
         {heading && (
           <SectionHeading
             eyebrow="About me"
-            title="Curious builder, lifelong learner"
-            subtitle="I love turning ideas into intuitive, performant products. Outside of code, I explore design, write about engineering, and contribute to open source."
+            title="Aspiring full stack engineer"
+            subtitle="I'm Niveditha — passionate about web development and excited about building scalable full stack applications. I'm focused on mastering React, backend systems, REST APIs, and databases while shipping real-world projects on my journey to becoming a skilled software engineer."
           />
         )}
 
