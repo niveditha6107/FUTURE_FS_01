@@ -85,6 +85,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Niveditha Arige | Full Stack Web Developer" },
+      { name: "description", content: "A modern, responsive full-stack developer portfolio website showcasing projects, skills, and contact information." },
+      { property: "og:description", content: "A modern, responsive full-stack developer portfolio website showcasing projects, skills, and contact information." },
+      { name: "twitter:description", content: "A modern, responsive full-stack developer portfolio website showcasing projects, skills, and contact information." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7a7f2b8e-3d3f-4b89-b58e-92bb9c6e8eb9/id-preview-619a192c--af156202-afac-4546-8afd-86031deefbb3.lovable.app-1780142915711.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7a7f2b8e-3d3f-4b89-b58e-92bb9c6e8eb9/id-preview-619a192c--af156202-afac-4546-8afd-86031deefbb3.lovable.app-1780142915711.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
