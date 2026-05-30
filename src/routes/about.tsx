@@ -5,7 +5,7 @@ import { Skills } from "@/components/skills";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — Niveditha Arige" },
+      { title: "About — Niveditha Arige | Software Developer" },
       { name: "description", content: "About Niveditha Arige: developer bio, career goals, education, and experience." },
       { property: "og:title", content: "About — Niveditha Arige" },
       { property: "og:description", content: "Developer bio, education, and experience." },
